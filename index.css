@@ -1,6 +1,9 @@
-body, html{
+body{
     margin: 0;
     padding: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
 }
 
 html {
@@ -75,7 +78,25 @@ html {
              0.3em 0.3em 1em rgba(0,0,0,0.3);
     border-radius: 10px;
     margin: 10px;
+
 }
+
+.card-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container > div{
+    margin-bottom: 5px;
+}
+
+.review-title{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+
 
 .first-review{
     background-color: hsl(263, 55%, 52%);
